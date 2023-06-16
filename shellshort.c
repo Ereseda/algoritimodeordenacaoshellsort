@@ -3,6 +3,7 @@
 #define N 8
 
 //Cabeçalho para criar o protótipo
+
 void shellsort(int *dados);
 
 int main(int argc, char** argv){
@@ -14,8 +15,7 @@ int main(int argc, char** argv){
     shellsort(vetor);
 
     for( i = 0; i < N; i ++){
-        printf("%d", vetor[i]);
-
+        printf("%d ", vetor[i]);
     }
     return 0;
 }
